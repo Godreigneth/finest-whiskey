@@ -206,3 +206,62 @@ hr {
     border-color: #460f02;
 }
 
+
+/* Service Card */
+
+.cards-header-title {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.card-title {
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flex-item-left {
+    background-color: #3B008D;
+    margin: 20px;
+    padding: 10px;
+    flex: 33%;
+    border-style: solid;
+    border-width: thin;
+}
+
+.flex-item-center {
+    background-color: #750708;
+    margin: 20px;
+    padding: 10px;
+    flex: 33%;
+    border-style: solid;
+    border-width: thin;
+}
+
+.flex-item-right {
+    background-color: #095FEA;
+    margin: 20px;
+    padding: 10px;
+    flex: 33%;
+    border-style: solid;
+    border-width: thin;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+

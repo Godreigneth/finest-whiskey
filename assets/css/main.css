@@ -163,3 +163,46 @@ hr {
     font-style: italic;
     color: #d0d0d0;
 }
+
+
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--green {
+    color: white;
+    background-color: #08a815;
+    border-color: #08a815;
+    margin: 10px;
+}
+
+.btn--green:hover,
+.btn--green:active,
+.btn--green:focus,
+.btn--green:active:focus {
+    color: #fff;
+    background-color: #1b3502;
+    border-color: #1b3502;
+    
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    color: #fff;
+    background-color: #460f02;
+    border-color: #460f02;
+}
+

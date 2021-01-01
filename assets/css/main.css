@@ -134,6 +134,10 @@ hr {
 
 .navbar-brand {
     font-weight: bold;
+    font-size: 28px;
+    font-style: italic;
+    text-transform: uppercase;
+    padding-left: 20px;
 }
 
 .navbar .navbar-nav a {

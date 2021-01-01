@@ -380,3 +380,28 @@ hr {
 .footer-bottom a:hover {
     color: #ff304d;
 }
+
+
+/* -------------------------------------- Go Back To Up */
+
+.gotopbtn {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    background: #f504b9;
+    bottom: 30px;
+    right: 20px;
+    border-radius: 50%;
+
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    color: #fafafa;
+    font-size: 20px;
+}
+
+.gotopbtn:hover {
+    opacity: 0.9;
+    color: #fafafa;
+    border-color: #fafafa;
+}
